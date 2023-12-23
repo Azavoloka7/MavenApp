@@ -16,15 +16,16 @@ public class Main {
 
         // Display books in the library
         library.displayBooks();
-
+        //clone library with all books 
         Library library2 = library.clone();
-        System.out.println("\nCloned Library1  ");
+        System.out.println("\nCloned Library  ");
         library2.displayBooks();
 
 
 
 
         System.out.println("\nbook1 hashCode="+book1.hashCode()+"\nbook2 hashCode="+book2.hashCode()+"\nbook3 hashCode="+book3.hashCode());
+        
 
         System.out.println("\nlib1HashCode="+library.hashCode());
         System.out.println("\nlib2HashCode="+library2.hashCode());
